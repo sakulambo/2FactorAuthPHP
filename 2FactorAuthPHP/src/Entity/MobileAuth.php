@@ -9,8 +9,6 @@ use Swagger\Annotations as SWG;
  * @ORM\Entity(repositoryClass="App\Repository\MobileAuthRepository")
  * @ORM\Table(name="mobile_auth")
  * @ORM\HasLifecycleCallbacks()
- */
-/**
  * @SWG\Definition()
  */
 class MobileAuth {

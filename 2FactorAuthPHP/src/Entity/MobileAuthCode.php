@@ -10,6 +10,7 @@ use Swagger\Annotations as SWG;
  * @ORM\Entity(repositoryClass="App\Repository\MobileAuthCodeRepository")
  * @ORM\Table(name="mobile_auth_code")
  * @ORM\HasLifecycleCallbacks()
+ * @SWG\Definition()
  */
 class MobileAuthCode
 {
